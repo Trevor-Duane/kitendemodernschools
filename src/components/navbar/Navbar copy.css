@@ -1,0 +1,238 @@
+.mynav{
+  background-color: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  right: 0;
+}
+/* topbar */
+.topbarWrapper {
+  background-color: #1f1d35;
+  width: 100%;
+  height: max-content;
+}
+.topbar {
+  display: flex !important;
+  height: 70px;
+  justify-content: space-between;
+  align-items: center;
+}
+.topbar-left{
+  display: flex;
+  padding: 18px 18px;
+  align-items: center;
+  justify-content: center;
+}
+.topbar-logo{
+  padding: 12px 0px;
+}
+.topbar-right{
+  display: flex;
+  gap: 5rem;
+  justify-content: space-between;
+  align-items: center;
+}
+.topbar-icons {
+  display: flex;
+  gap: 12px;
+}
+.topbar-social-icon{
+  cursor: pointer;
+}
+.topbar-buttons{
+  display: flex;
+  gap: 12px;
+}
+.topbar-contact-button{
+  background-color: #0108f6;
+  border: 1px solid #0108f6;
+  padding: 4px 28px;
+  color: #fff;
+  font-weight: bold;
+}
+.topbar-contact-button:hover{
+  background-color: #fff;
+  border: 1px solid #fff;
+  color: #1f1d35;
+}
+
+.topbar-admission-button{
+  background-color: #ffc001;
+  border: 1px solid #ffc001;
+  padding: 4px 24px;
+  color: #fff;
+  font-weight: bold;
+}
+.topbar-admission-button:hover{
+  background-color: #fff;
+  border: 1px solid #fff;
+  color: #1f1d35;
+}
+
+/* header styles */
+.navbar {
+  background-color: #fff;
+  box-shadow: 0px 4px 8px rgba(31, 29, 53, 0.2);
+
+  /* box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); */
+  color: #333;
+  height: max-content;
+  width: 100%;
+  transition: box-shadow 0.3s ease;
+}
+.desktop {
+  display: flex !important;
+  height: 40px;
+  min-height: fit-content;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+}
+.navbar-links {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.navbar-link-button {
+  position: relative;
+}
+.navbar-link {
+  color: #333;
+  text-decoration: none;
+  padding: 1rem 1rem;
+  font-weight: 600;
+  display: inline-block;
+  background-color: transparent;
+  border-top: 2px solid #fff;
+  cursor: pointer;
+  font-size: 1rem;
+}
+.navbar-link-button span{
+  color: #333;
+  text-decoration: none;
+  padding: 1rem 1rem;
+  font-weight: 600;
+  display: inline-block;
+  background-color: transparent;
+  border-top: 2px solid #fff;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.navbar-link-button button {
+  color: #333;
+  text-decoration: none;
+  padding: 1rem 1rem;
+  font-weight: 600;
+  display: inline-block;
+  background-color: transparent;
+  border-top: 2px solid #fff;
+  cursor: pointer;
+  font-size: 1rem;
+}
+.active-navbar-link {
+  color: #0108F6;
+  text-decoration: none;
+  font-weight: 500;
+  padding: 1rem 1rem;
+  display: inline-block;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+/* Hover effect: Add a top border */
+.navbar-link:hover,
+.navbar-link-button button:hover {
+
+  border-top: 2px solid #0108F6; /* Top border on hover */
+}
+
+.navbar-link:hover,
+.navbar-link-button span:hover {
+
+  border-top: 2px solid #0108F6; /* Top border on hover */
+}
+
+
+/* Dropdown menu styling */
+.dropdown-menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: green;
+  color: #333;
+  border: 1px solid #ddd;
+  min-width: 150px;
+  padding: 0.5rem;
+  display: none; /* Hide by default */
+  flex-direction: column;
+}
+
+/* Show dropdown on hover */
+.navbar-link-button:hover .dropdown-menu,
+.navbar-link-button button:hover .dropdown-menu {
+  display: flex; /* Display dropdown on hover */
+}
+
+/* Show dropdown on hover */
+.navbar-link-button:hover .dropdown-menu,
+.navbar-link-button span:hover .dropdown-menu {
+  display: flex; /* Display dropdown on hover */
+}
+
+/* Dropdown links */
+.dropdown-menu a {
+  color: #333;
+  padding: 0.5rem;
+  text-decoration: none;
+}
+
+.dropdown-menu a:hover {
+  background-color: #f4f4f4;
+}
+.menu-icon {
+  display: none;
+  color: white;
+  cursor: pointer;
+}
+
+/* Responsive styling */
+@media (max-width: 768px) {
+  .navbar-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .menu-icon {
+    display: inline-block; /* Show menu icon on small screens */
+  }
+
+  .navbar-links {
+    display: none;
+    flex-direction: column;
+    gap: 0;
+  }
+
+  .navbar-links.active {
+    display: flex;
+    background-color: #333;
+    padding: 1rem;
+  }
+
+  .navbar-link button {
+    color: white;
+    background: none;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+  }
+
+  .navbar-link button:focus {
+    outline: none;
+  }
+}
