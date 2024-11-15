@@ -1,0 +1,88 @@
+/* Hero Section */
+.portfolio-hero-section {
+    background-color: #1f1d35;
+    color: #fff;
+    margin-bottom: 2rem;
+  }
+  .portfolio-hero-section h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+  }
+  
+  .portfolio-hero-section p {
+    font-size: 1.2rem;
+  }
+  .section-alternate {
+    background-color: #f9f9f9;
+  }
+  
+  .flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .welcome-text-column, .welcome-photo-column {
+    flex: 1;
+  }
+  
+  .welcome-photo-column img {
+    max-width: 100%;
+    border-radius: 8px;
+    height: auto;
+  }
+  
+  .info-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .info-table th, .info-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+  }
+  
+  .info-table th {
+    background-color: #1f1d35;
+    color: white;
+  }
+  
+  /* Tabbed Container */
+  .tabs {
+    position: relative;
+    margin-top: 20px;
+  }
+  
+  .tabs input {
+    display: none;
+  }
+  
+  .tabs label {
+    padding: 10px;
+    display: inline-block;
+    cursor: pointer;
+    background: #ddd;
+    margin-right: 5px;
+  }
+  
+  .tabs input:checked + label {
+    background: #1f1d35;
+    color: #fff;
+  }
+  
+  .tab-content {
+    display: none;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+  }
+  
+  #tab1:checked ~ #content1,
+  #tab2:checked ~ #content2,
+  #tab3:checked ~ #content3,
+  #tab4:checked ~ #content4 {
+    display: block;
+  }
+  

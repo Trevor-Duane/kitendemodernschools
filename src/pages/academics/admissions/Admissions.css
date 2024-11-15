@@ -1,0 +1,123 @@
+  .admission-hero-section {
+    background-color: #1f1d35;
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  
+  .admission-hero-section h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+  }
+  
+  .admission-hero-section p {
+    font-size: 1.2rem;
+  }
+  
+  .container {
+    width: 90%;
+    margin: 0 auto;
+  }
+  
+ .admission-page h2  {
+    color: #333;
+  }
+  
+  .table-container {
+    margin-bottom: 30px;
+  }
+  .table-container h3{
+    color: #333;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  
+  th, td {
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #f9f9f9;
+  }
+  
+  td {
+    background-color: #fafafa;
+  }
+  
+  ol {
+    padding-left: 20px;
+  }
+  
+  ol li {
+    margin-bottom: 15px;
+  }
+  
+  .download-section {
+    /* background-color: #f9f9f9; */
+    background-color: #1f1d35;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .download-section h3 {
+    font-size: 1.5rem;
+    color: #fff;
+  }
+  .download-section p{
+    color: #fff;
+  }
+  
+  .download-btn {
+    display: inline-block;
+    background-color: #FF0203;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-top: 15px;
+    font-size: 1rem;
+  }
+  
+  .download-btn:hover {
+    background-color: #0056b3;
+  }
+  
+  .payment-instructions ul {
+    padding-left: 20px;
+    list-style-type: none;
+  }
+  
+  .payment-instructions ul li {
+    margin-bottom: 10px;
+  }
+  
+  .payment-instructions p {
+    font-weight: bold;
+  }
+  
+  /* Media Queries for Responsive Design */
+  @media (max-width: 768px) {
+    .hero-section .hero-content h1 {
+      font-size: 2rem;
+    }
+  
+    .hero-section .hero-content .lead-text {
+      font-size: 1rem;
+    }
+  
+    table {
+      font-size: 0.9rem;
+    }
+  
+    .payment-instructions ul li {
+      font-size: 0.9rem;
+    }
+  }
+  

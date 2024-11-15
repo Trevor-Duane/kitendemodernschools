@@ -1,0 +1,53 @@
+.life-hero-section {
+  padding: 3em 0;
+  background-color: #1f1d35;
+}
+
+.life-hero-section h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.life-hero-section p {
+  font-size: 1.2rem;
+}
+
+.student-life-gallery {
+  text-align: center;
+}
+
+.grid-gallery {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  margin-top: 30px;
+}
+
+.gallery-item {
+  position: relative;
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.gallery-item:hover {
+  transform: scale(1.05);
+}
+
+.gallery-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.gallery-caption {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #ffffff;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 0.9em;
+}

@@ -189,8 +189,25 @@
   color: #080b53;
 }
 
+/* styles for mobile */
+.navbar-header-mobile{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.mobile-navigation{
+  height: auto;
+}
+
 /* Responsive styling */
 @media (max-width: 768px) {
+  .topbarWrapper{
+    display: none;
+  }
+  .infographics{
+    display: none;
+  }
   .navbar-header {
     display: flex;
     align-items: center;

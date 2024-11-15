@@ -1,0 +1,66 @@
+/* Hero Section Styles */
+.academic-hero-section {
+    background: #1f1d35;
+    color: #fff;
+  }
+  
+  .academic-hero-section h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+  }
+  
+  .academic-hero-section p {
+    font-size: 1.2rem;
+  }
+  
+  /* Calendar Section Styles */
+  .calendar-section {
+    padding: 40px 0;
+  }
+  
+  .calendar-section h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .calendar-section p {
+    font-size: 1rem;
+    margin-bottom: 30px;
+  }
+  
+  .calendar-table {
+    margin-top: 20px;
+    overflow-x: auto;
+  }
+  
+  .calendar-table table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .calendar-table th,
+  .calendar-table td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: center;
+  }
+  
+  .calendar-table th {
+    background-color: #f4f4f4;
+    font-weight: bold;
+  }
+  
+  .calendar-table td {
+    font-size: 0.9rem;
+  }
+  
+  @media (max-width: 768px) {
+    .hero-section h1 {
+      font-size: 2rem;
+    }
+  
+    .hero-section p {
+      font-size: 1rem;
+    }
+  }
+  
